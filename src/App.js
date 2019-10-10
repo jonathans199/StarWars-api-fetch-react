@@ -1,25 +1,14 @@
-import React from 'react'
+import React from "react";
 
-
-class App extends React.Component{
-  constructor(){
-    super()
-    this.state = {
-
-    }
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {};
   }
 
-  render(){
-    return(
-      <div> 
-        clean slate here
-        </div> 
-    )
+  render() {
+    return <div>clean slate here</div>;
   }
-
-
 }
 
-
-
-export default App
+export default App;
