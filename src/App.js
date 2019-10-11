@@ -51,11 +51,9 @@ class App extends React.Component {
   render() {
     const allShips = this.state.apiData;
     const isLoading = this.state.loading;
-    const allImages = this.state.images;
 
     
     // add image URL to the array 
-    console.log(allShips)
     allShips.forEach(element => {
       element.imageUrl = `https://starwars-ships.s3.amazonaws.com/starwars-${Math.floor(
         Math.random() * 10
@@ -66,10 +64,10 @@ class App extends React.Component {
 
       if(!isLoading){
         return (
-          <div>
+          <div className="row text-center">
             <h3>{item.name}</h3>
             <p className="text-muted">{item.model}</p>
-            <img src={item.imageUrl} width="200px" />
+            <img src={item.imageUrl} width="100px" alt="jons images"/>
           </div>
         );
       } return 'loading....'
