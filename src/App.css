@@ -11,9 +11,8 @@ body {
 }
 
 .main-wrapper {
-  height: 100vh;
+  height: 100%;
   background-image: url('/starwars-deadstar.jpg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   color: white;
-
 }
