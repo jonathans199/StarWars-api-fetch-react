@@ -1,8 +1,8 @@
-#STARWARS SHIPS API React practice
+# STARWARS SHIPS API React practice
 
 ![Starwars ships](/src/screenshot.png)
 
-##Technologies Used: 
+## Technologies Used: 
 
 Some sites using this project :
 
