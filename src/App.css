@@ -8,11 +8,37 @@
 
 body {
   box-sizing: border-box; /* does not allow to add borders */
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .main-wrapper {
-  height: 100vh;
-  background-image: url('/starwars-deadstar.jpg');
+  /* height: 100vh; */
+  background-image: url("/starwars-deadstar.jpg");
   /* background-repeat: no-repeat; */
   color: white;
+}
+
+.title {
+  font-family: "Share Tech Mono", monospace;
+}
+
+.ship {
+  margin: 40px 0;
+  min-width: 300px;
+  background-color: #1c1c1ca1;
+}
+
+.ship-model {
+  font-family: "Share Tech Mono", monospace;
+}
+
+.ship > img {
+  margin: 0 auto;
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  min-height: 200px;
 }
